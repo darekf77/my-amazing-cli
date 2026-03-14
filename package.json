@@ -1,6 +1,6 @@
 {
   "name": "my-amazing-cli",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "scripts": {
     "taon init": "taon init",
     "taon start": "taon start",
@@ -21,7 +21,7 @@
     "taon vscode:temp:hide": "taon vscode:temp:hide"
   },
   "author": "Darek",
-  "private": true,
+  "private": false,
   "dependencies": {
     "7zip-bin": "~5.2.0",
     "@angular-builders/custom-webpack": "~20.0.0",

@@ -27,7 +27,7 @@
   "packageJsonOverride": {
     "author": "Darek",
     "description": "Description for my-amazing-cli. Hello world!",
-    "private": true,
+    "private": false,
     "scripts": {}
   }
 }
