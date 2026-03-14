@@ -1,6 +1,7 @@
 {
   "type": "isomorphic-lib",
   "version": "v21",
+  "appId": "com.domain.example.my-amazing-cli",
 
   "autoReleaseConfigAllowedItems": [{
     "artifactName": "npm-lib-and-cli-tool",
@@ -24,8 +25,8 @@
   "shouldGenerateAutogenIndexFile": true,
 
   "packageJsonOverride": {
-    "private": true,
     "author": "Darek",
-    "description": "Description for my-amazing-cli. Hello world!"
+    "description": "Description for my-amazing-cli. Hello world!",
+    "private": true
   }
 }
