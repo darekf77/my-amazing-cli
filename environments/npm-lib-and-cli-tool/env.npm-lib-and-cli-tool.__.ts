@@ -3,5 +3,11 @@ import baseEnv from '../../env';
 
 const env: Partial<EnvOptions> = {
   ...baseEnv,
+  release: {
+    ...baseEnv.release,
+    cli: {
+      includeNodeModules: true,
+    }
+  }
 };
 export default env;
