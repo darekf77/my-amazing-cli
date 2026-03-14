@@ -17,8 +17,8 @@
  */
 export async function startCli(argsv: string[], filename: string): Promise<void> {
   //#region @backendFunc
-  console.log('Hello from cli');
-  console.log({ argsv });
+  console.log('Hello from my amazing cli ');
+  
   process.exit(0);
 
   //#region start config
